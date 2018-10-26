@@ -44,6 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdapterExample.cs" />
+    <Compile Include="Address.cs" />
+    <Compile Include="AddressRepository.cs" />
+    <Compile Include="Message.cs" />
+    <Compile Include="MessageService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
