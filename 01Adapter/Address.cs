@@ -2,6 +2,6 @@
 {
     public class Address
     {
-        public string Email { get; internal set; }
+        public string Email { get; set; }
     }
 }

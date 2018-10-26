@@ -11,7 +11,12 @@ namespace _01Adapter
 
         public IList<Address> GetAddresses()
         {
-            throw new NotImplementedException();
+            var fakalist = new List<Address>();
+            var addr = new Address { Email = "valami" };
+            fakalist.Add(addr);
+
+            //return new List<Address>(new Address {Email="valaki" });
+            return fakalist;
         }
     }
 
